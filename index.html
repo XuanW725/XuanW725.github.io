@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 这里做SEO优化 -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>信息系统教材资源网站</title>
+    <style>
+        .cards {
+                        display: flex;
+                        width: 100%;
+
+                        /* Put a card in the next row when previous cards take all width */
+                        flex-wrap: wrap;
+
+                        /* margin-left: -8px;
+                        margin-right: -8px; */
+                    }
+
+                    .cards__item {
+                        /* There will be 4 cards per row */
+                        flex-basis: 47%;
+
+                        padding-left: 8px;
+                        padding-right: 8px;
+                    }
+                    .cards__item {
+  width: 300px;
+  height: 280px;
+  margin-right: 30px;
+  margin-bottom: 25px;
+  padding: 0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.cards__item * {
+  transition: 0.3s ease all;
+}
+
+.cards__item img {
+  margin: 0;
+  width: 100%;
+  height: 224px;
+  object-fit: cover;
+  display: block;
+}
+
+.cards__item h3 {
+  margin: 0;
+  padding: 12px 12px 48px;
+  line-height: 32px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.cards__item .focus-content {
+  display: block;
+  padding: 8px 12px;
+}
+
+.cards__item p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.cards__item:hover img, .cards__item:focus-within img {
+  margin-top: -80px;
+}
+
+.cards__item:hover h3, .cards__item:focus-within h3 {
+  padding: 8px 12px 0;
+} 
+
+    </style>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- 使用iconfont -->
+    <link rel="stylesheet" href="font-iconfonts1/iconfont.css">
+    <style>
+        table {
+            width: 720px;
+            text-align: left;
+            border-collapse: separate;
+            border-spacing: 0 25px;
+        }
+        td {
+            width: 290px;
+            font-size: 24px;
+            overflow: auto;
+        }
+    </style>
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">开始信息系统的学习吧</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">学习资源</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">资源打包</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Q & A</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/portfolio/information system.png" alt="" style="width: 260px; height: 256px; margin-top: -10px;">
+                    <div class="intro-text">
+                        <span class="name" style="color:rgb(26,35,126);">信息系统</span>
+                        <hr class="star-primary">
+                        <span class="skills" style="color: rgb(26,35,126); font-weight: bold;">2023届信息技术学科教学设计第一小组·编制</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <!-- 学习资源板块 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>学习资源</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content" style="font-size: 36px;">第一章
+                                <!-- <i class="fa fa-search-plus fa-3x"></i> -->
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Chapter 1.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content" style="font-size: 36px;">第二章
+                                <!-- <i class="fa fa-search-plus fa-3x"></i> -->
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Chapter 2.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content" style="font-size: 36px;">第三章
+                                <!-- <i class="fa fa-search-plus fa-3x"></i> -->
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Chapter 3.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content" style="font-size: 36px;">第四章
+                                <!-- <i class="fa fa-search-plus fa-3x"></i> -->
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Chapter 4.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content" style="font-size: 36px;">拓展资源
+                                <!-- <i class="fa fa-search-plus fa-3x"></i> -->
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Frontier focus.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content" style="font-size: 36px;">章节习题
+                                <!-- <i class="fa fa-search-plus fa-3x"></i> -->
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Answers.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>资源打包</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>这里放资源介绍</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>这里放资源列表</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="sources/InformationSystem.pdf" class="btn btn-lg btn-outline" download="sources/InformationSystem.pdf">
+                        <i class="fa fa-download"></i> Download all!
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>关于教材的Q&A</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="cards">
+                        <!-- A card with given width -->
+                        <div class="cards__item">
+                            <img src="img/wenda/IMG_1693.PNG"/>
+                            <h3 style="font-weight: bold;">项目团队成员</h3>
+                            <div class="focus-content">
+                                <p style="font-weight: bold;">文本组：齐佩骥 王钰慧 张菊丽<br/>排版组：程染曦 刘思悦 吴璇<br/> <a href="#">Link to source</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cards__item">
+                            <img src="img/wenda/IMG_1694.PNG"/>
+                            <h3 style="font-weight: bold;">网站/教材配色</h3>
+                            <div class="focus-content">
+                                <p>
+                                    <div style="border-radius: 10px; box-shadow: -5px -5px 5px white;overflow: hidden;">
+                                        <a href="img/palette.png" title="点击查看配色参数" target="_blank">
+                                            <img src="img/palette.png" alt="调色盘" style="height: 100%;">
+                                        </a>
+                                    </div>
+                                    
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="cards__item">
+                            <img src="img/wenda/IMG_1695.PNG"/>
+                            <h3 style="font-weight: bold;">教材文本内容来源</h3>
+                            <div class="focus-content">
+                                <p style="font-weight: bold;">主要来源：人教版+粤教版+沪教版<br/>+浙教版+教科版+华东师大版《信息系统与社会》<br/> <a href="#">Link to source</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cards__item">
+                            <img src="img/wenda/IMG_1696.PNG"/>
+                            <h3 style="font-weight: bold;">项目进度处理与分工</h3>
+                            <div class="focus-content">
+                                <p style="font-weight: bold;">项目周期：14周；教材电子版->网站资源<br/>项目分工：集体讨论+在线协作<br/> <a href="#">Link to source</a>
+                                </p>
+                            </div>
+                        </div>
+                    
+                        <!-- Repeat other cards -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>出版社地址</h3>
+                        <p>华中师范大学<br>邮编：430079</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>网络联系方式</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="http://www.ccnu.edu.cn/" class="btn-social btn-outline" style="text-decoration: none;" title="ccnu官网"><span class="iconfont icon-guanfang"></span></a>
+                            </li>
+                            <li>
+                                <a href="https://mp.weixin.qq.com/s/jyhctHxyrXxnOCkYb-weOg" class="btn-social btn-outline" style="text-decoration: none;" title="ccnu官微"><span class="iconfont icon-weixin"></span></a>
+                            </li>
+                            <li>
+                                <a href="https://m.weibo.cn/u/1878136331" class="btn-social btn-outline" style="text-decoration: none;" title="ccnu官博"><span class="iconfont icon-weibo" ></span></a>
+                            </li>
+                            <li>
+                                <a href="https://user.qzone.qq.com/1307305267?source=namecardhoverqzone" class="btn-social btn-outline" style="text-decoration: none;" title="ccnu官Q"><span class="iconfont icon-QQ"></span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.douyin.com/user/MS4wLjABAAAAie6KvW-8mZDRFcIae8sAgo9MU5gTsq5l4zwV4sKf8Bs" class="btn-social btn-outline" style="text-decoration: none;" title="ccnu官方抖音"><span class="iconfont icon-douyin"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>关于我们</h3>
+                        <p>该网站是基于小组自制信息技术教材《信息系统》所做的资源导引性网站，有疑问请访问<a href="http://www.ccnu.edu.cn/">华中师范大学官网</a>。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; 2022. 版权所有：华中师范大学信息技术学科2023届教学设计第一小组
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <!-- 第一章弹出内容 -->
+                        <div class="modal-body">
+                            <h2>第一章 信息系统概述</h2>
+                            <hr class="star-primary">
+                            <img src="img/mindmap/pdf1.jpg" class="img-responsive img-centered" alt="">
+                            <p style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现今，信息系统已渗透到人们生活的方方面面。走进商店购物，手机支付系统可以让你轻松付款；乘坐公交车或地铁，公共交通IC卡收费系统可以让你免去买票找零或准备零钱的烦恼；在家里，智能家居系统可以自动为你提供舒适的家居环境……这些发生在我们周围的生活场景，都是以信息系统为支撑的。
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本章结合人们实际生活中的应用实例，介绍信息系统的组成及功能，并通过信息系统的搭建实例介绍信息系统的大体开发过程，最后结合信息社会的发展辩证分析了信息系统的优势与局限性。
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>第一章内容阅览：
+                                    <strong><a href="sources/pdf (1章).pdf" target="_blank">信息系统概述</a>
+                                    </strong>
+                                </li>
+                                <li>补充资源：
+                                    <strong><a href="http://sc.chinaz.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>第二章 信息系统中的基础设施</h2>
+                            <hr class="star-primary">
+                            <img src="img/mindmap/pdf2.jpg" class="img-responsive img-centered" alt="">
+                            <p style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信息化已经成为世界经济和社会发展的大趋势，信息化工作离不开信息系统的建设，信息系统的建设也离不开各种基础设备。例如，学生使用台式计算机、平板电脑等进行在线学习、移动学习；气象专家使用高性能的超级计算机对云层运动进行观测、模拟；家庭主妇使用智能手机操控电视机、扫地机器人、空调等智能家用电器……这些基础设备离不开硬件和软件的协同工作。
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本章以计算机和移动终端为出发点，我们将深入了解信息系统中的硬件和软件，理解计算机、移动终端在信息系统中的作用，并深入学习计算机软件的功能以及开发过程。在解决问题和协同探究的过程中，进一步加深对信息系统基础设施的理解。</p>
+                            <ul class="list-inline item-details">
+                                <li>第二章内容阅览：
+                                    <strong><a href="sources/pdf (2章).pdf" target="_blank">信息系统中的基础设施</a>
+                                    </strong>
+                                </li>
+                                <li>拓展资源:
+                                    <strong><a href="sources/第二章参考资料.pdf" target="_blank">第二章参考资料</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>第三章 信息系统中的通信网络</h2>
+                            <hr class="star-primary">
+                            <img src="img/mindmap/pdf3.jpg" class="img-responsive img-centered" alt="">
+                            <p style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从结绳记事到云端存储,从飞鸽传书到光纤通信,从信息孤岛到万物互联……人类社会发展中的每一次重大变革都与技术进步密不可分。18世纪,蒸汽机的改良掀起了以机器代替人工的工业革命浪潮;19世纪,发电机及一系列电力技术的发明改变了世界；20世纪,以计算机技术与现代通信技术为代表的现代信息技术,又将人类社会的生产力水平推上了一个崭新的台阶。
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本章将通过自主、协作、探究学习，让同学们知道信息系统与外部世界的连接方式，了解物联网的基本架构和应用；理解计算机网络在信息系统中的作用；通过组建小型无线网络,了解常见网络设备的功能,知道接入方式、带宽等因素对信息系统的影响，从而将知识建构、技能培养与思维发展融入运用数字化工具解决问题和完成任务的过程中，促进信息技术学科核心素养达成，完成项目学习目标。
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>第三章内容阅览：
+                                    <strong><a href="sources/pdf (3章).pdf" target="_blank">信息系统中的通信网络</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <ul class="list-inline item-details">&lt拓展资源&gt<br/>
+                                <li>网页类资源：
+                                    <strong><a href="https://baijiahao.baidu.com/s?id=1716238074380031607&wfr=spider&for=pc" target="_blank">计算机发展的四个阶段</a>
+                                    </strong>
+                                </li>
+                                <li>视频类资源：
+                                    <strong><a href="https://www.bilibili.com/video/BV1g4411k719?spm_id_from=333.337.search-card.all.click" target="_blank">六分钟了解物联网</a>
+                                    </strong>
+                                    <strong><a href="https://www.bilibili.com/video/BV1jW41177je/?spm_id_from=333.788.recommend_more_video.-1" target="_blank">什么是物联网</a>
+                                    </strong>
+                                    <strong><a href="https://www.bilibili.com/video/BV1c4411d7jb?spm_id_from=333.337.search-card.all.click" target="_blank">计算机网络进阶课程1</a>
+                                    </strong>
+                                    <strong><a href="https://www.icourse163.org/course/HIT-154005?from=searchPage" target="_blank">计算机网络进阶课程2</a>
+                                    </strong>
+                                    <strong><a href="https://www.icourse163.org/course/XJTU-1207110808?from=searchPage" target="_blank">物联网进阶课程</a>
+                                    </strong>
+                                </li>
+                                <li>课件、教案类资源：
+                                    <strong><a href="https://xx.zxxk.com/" target="_blank">学科网</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>第四章 信息社会安全与责任</h2>
+                            <hr class="star-primary">
+                            <img src="img/mindmap/pdf4.jpg" class="img-responsive img-centered" alt="">
+                            <p style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在全球信息化浪潮的推动下，计算机、网络、大数据等技术迅速发展，并渗透到政治、国防、经济及生活的各个领域，从根本上改变了社会形态及人们的生产生活方式。然而，信息系统安全问题既需要管理层重视相关法律法规的制定与完善，又需要各层面倡导与推广先进的管理手段与技术方法，更需要每一位应用者从国家、社会与合格公民的角度出发，增强信息系统安全风险防范意识,提高防范技术水平，以确保信息系统安全问题得到全面重视与高效格实,维护好国家利益及个人信息安全。
+                            <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本章将通过自主、协作、探究学习让向学们认识信息系统应用过程中存在的风险，树立信息安全意识；熟悉信息系统安全风险防范的常用技术方法，养成规范的信息系统操作习惯；树立信息社会责任意识，合理使用信息系统，负责任地发布、使用与传播信息，自觉遵守信息社会中的道德准则和法律法规，从而将知识建构、技能培养与思维发展融入运用数字化工具解决问题和完成任务的过程中，促进信息技术学科核心素养达成，完成学习目标。</p>
+                            <ul class="list-inline item-details">
+                                <li>第四章内容阅览：
+                                    <strong><a href="sources/pdf (4章).pdf" target="_blank">信息社会安全与责任</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <ul class="list-inline item-details">&lt拓展资源&gt<br/>
+                                <li>网页类资源：
+                                    <strong><a href="https://blog.csdn.net/Amdy_amdy/article/details/82884760" target="_blank">网络安全基础知识</a>
+                                    </strong>
+                                </li>
+                                <li>视频类资源：
+                                    <strong><a href="https://www.bilibili.com/video/BV11J411c7RS?spm_id_from=333.337.search-card.all.click" target="_blank">网络安全之密码学</a>
+                                    </strong>
+                                    <strong><a href="https://www.bilibili.com/video/BV1jW41177je/?spm_id_from=333.788.recommend_more_video.-1" target="_blank">信息安全意识</a>
+                                    </strong>
+                                    <strong><a href="https://www.bilibili.com/video/BV1a7411Y74v?spm_id_from=333.337.search-card.all.click" target="_blank">信息安全概论</a>
+                                    </strong>
+                                    <strong><a href="https://www.bilibili.com/video/BV1aU4y1F72h?spm_id_from=333.337.search-card.all.click" target="_blank">如何防范钓鱼邮件</a>
+                                    </strong>
+                                    <strong><a href="https://www.bilibili.com/video/BV1i7411L77d?spm_id_from=333.337.search-card.all.click" target="_blank">信息系统安全与对抗技术</a>
+                                    </strong><br/>
+                                    <strong><a href="https://www.bilibili.com/video/BV19X4y1u7Ua?spm_id_from=333.337.search-card.all.click" target="_blank">恶意软件：计算机病毒，蠕虫和木马之间的区别</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>拓展资源</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/Frontier focus.jpg" class="img-responsive img-centered" alt="">
+                            <h3>前沿聚焦</h3>
+                            <hr class="star-secondary">
+                                <div class="accordion__item">
+                                    <!-- The content -->
+                                        <ul class="list-inline item-details"><h4>第三章</h4><br/>
+                                            <li>【讯息资源】<br/>
+                                                <strong><a href="https://www.thepaper.cn/newsDetail_forward_18201448" target="_blank">物联网操作系统</a>
+                                                </strong>
+                                                <strong><a href="https://new.qq.com/omn/20220523/20220523A0AC9000.html" target="_blank">物联网“赋农”</a>
+                                                </strong>
+                                            </li><br/>
+                                            <li>【论文资源】<br/>
+                                                <strong><a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2020&filename=CXYY202009082&uniplatform=NZKPT&v=TcQSEtyR1kaVNOliyEHlrRYPj_uNdBNyLvCk9cmS7QIZEAhuZin3HqbYbpVxhN8Y" target="_blank">物联网在智能家居中的应用与发展- 中国知网(cnki.net)</a>
+                                                </strong><br/>
+                                                <strong><a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2021&filename=CZJS202103009&uniplatform=NZKPT&v=8woIYYpLJO8IhbO9HphJYWc_MPVvIwaSE7zgYzF8_9iWjIzu7TB0nRdwJC1n5kRk" target="_blank">我国物联网产业发展现状和建议- 中国知网(cnki.net)</a>
+                                                </strong>
+                                            </li>
+                                        </ul>   
+                                </div>
+                                <!-- Repeat other item -->
+                                <div class="accordion__item">
+                                    <ul class="list-inline item-details"><h4>第四章</h4><br/>
+                                        <li>【讯息资源】<br/>
+                                            <strong><a href="http://theory.people.com.cn/n1/2016/0415/c49154-28277888.html" target="_blank">关注大数据时代的社会安全--理论-人民网(people.com.cn)</a>
+                                            </strong><br/>
+                                            <strong><a href="http://www.npc.gov.cn/npc/c30834/202011/b69e0aa050cb482d9dc82be439eab2c5.shtml" target="_blank">如何平衡公共安全与个人信息保护_中国人大网(npc.gov.cn)</a>
+                                            </strong><br/>
+                                            <strong><a href="http://www.safehoo.com/Essay/Else/201803/1515941.shtml" target="_blank">我国信息安全现状分析与对策研究-安全管理网(safehoo.com)</a>
+                                            </strong><br/>
+                                            <strong><a href="http://www.qstheory.cn/zhuanqu/2021-10/10/c_1127943608.htm" target="_blank">习近平：没有网络安全就没有国家安全- 求是网(qstheory.cn)</a>
+                                            </strong><br/>
+                                            <strong><a href="http://www.632news.com/zznews/content/2022-05/30/content_39536.html" target="_blank">中华人民共和国网络安全法_枣庄新闻网(632news.com)</a>
+                                            </strong><br/>
+                                        </li>
+                                        <li>【论文资源】<br/>
+                                            <strong><a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFD2004&filename=RJXB200408012&uniplatform=NZKPT&v=gJ163juCYh4gukQPcyd46GF8ekTop9ra1x-IstxDvsXjLLtubg48G_Ik1yEV-erl" target="_blank">网络蠕虫研究与进展- 中国知网(cnki.net)</a>
+                                            </strong><br/>
+                                            <strong><a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2015&filename=ZGTS201502006&uniplatform=NZKPT&v=W-bps51uHP_FtoM1APS8NBFSmF4k9gP5t-OwZH66V9zkc6MGq0Nr46VZMcjPwizE" target="_blank">论信息安全、网络安全、网络空间安全- 中国知网(cnki.net)</a>
+                                            </strong><br/>
+                                            <strong><a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFD2007&filename=JEXK200702000&uniplatform=NZKPT&v=B760xYkhXPsPp1tMOOVviV-Np7a9zzYcSOG4kNIFq5HM7HvCyQtoWyU588DJyqEZ" target="_blank">信息安全综述- 中国知网(cnki.net)</a>
+                                            </strong><br/>
+                                            <strong><a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDHIS2&filename=QBZZ201312029&uniplatform=NZKPT&v=fzluLbYdK_YmrKuxIBPyHDf3pteCrqXcNUPaLC7uMWnTzf0pH3OX7YDmH28N1mph" target="_blank">大数据时代个人信息保护的现实困境与路径选择- 中国知网(cnki.net)</a>
+                                            </strong><br/>
+                                            <strong><a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFD2001&filename=WLAQ200101005&uniplatform=NZKPT&v=WWhBg7Ycsx5DhVXwmd_De0iRDB5CZXHbZsXzmxXxJmMaP-hg4ymdpp51e4om9i9x" target="_blank">国内外信息安全研究现状及其发展趋势- 中国知网(cnki.net)</a>
+                                            </strong><br/>  
+                                        </li>
+                                    </ul>
+                                </div>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>章节习题</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/Answers.jpg" class="img-responsive img-centered" alt="">
+                            
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <strong><a href="sources/第二章练习题答案 .pdf" target="_blank" download="sources/第二章练习题答案 .pdf"><i class="fa fa-download"></i>&nbsp;第二章习题答案</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a href="sources/第三章答案.pdf" target="_blank" download="sources/第三章答案.pdf"><i class="fa fa-download"></i>&nbsp;第三章习题答案</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong><a href="sources/第四章答案.pdf" target="_blank" download="sources/第四章答案.pdf"><i class="fa fa-download"></i>&nbsp;第四章习题答案</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>

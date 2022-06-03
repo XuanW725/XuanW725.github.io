@@ -1,0 +1,72 @@
+{
+  "id": "3435714",
+  "name": "SocialIcons",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "297678",
+      "name": "文本编辑_填充",
+      "font_class": "wenben",
+      "unicode": "e6d4",
+      "unicode_decimal": 59092
+    },
+    {
+      "icon_id": "13116789",
+      "name": "zhixingjindu",
+      "font_class": "zhixingjindu",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "11399152",
+      "name": "palette",
+      "font_class": "palette",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1238478",
+      "name": "team",
+      "font_class": "team",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "680691",
+      "name": "官方2",
+      "font_class": "guanfang",
+      "unicode": "e6f5",
+      "unicode_decimal": 59125
+    },
+    {
+      "icon_id": "15543329",
+      "name": "xiaochengxu",
+      "font_class": "xiaochengxu",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "4936987",
+      "name": "weibo",
+      "font_class": "weibo",
+      "unicode": "e883",
+      "unicode_decimal": 59523
+    },
+    {
+      "icon_id": "4936984",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e882",
+      "unicode_decimal": 59522
+    },
+    {
+      "icon_id": "911071",
+      "name": "weixin",
+      "font_class": "weixin",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    }
+  ]
+}
